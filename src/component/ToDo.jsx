@@ -1,6 +1,6 @@
 import React from 'react'
 import { RiCalendarTodoFill } from "react-icons/ri";
-import ToDoList from './ToDoList';
+import ToDoItems from './ToDoItems';
 
 const ToDo = () => {
   return (
@@ -19,7 +19,8 @@ const ToDo = () => {
      </div>
 
       {/* --todo list-- */}
-<ToDoList/>
+<ToDoItems text={"test coding 1"}/>
+<ToDoItems text={"test coding 2"}/>
 
     </div>
   )
